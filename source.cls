@@ -1,4 +1,4 @@
-\ProvidesClass{source}[2012/04/30 CV class]
+\ProvidesClass{source}[]
 \NeedsTeXFormat{LaTeX2e}
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -93,7 +93,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{2.6cm}
   \vspace{-2\parskip}
 }
 
@@ -133,7 +133,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   {%
   \large\headingfont\color{headercolor} #1%
   }
-  \par\vspace{.25\parskip}%
+  \par\vspace{.2\parskip}%
 }
 
 \pagestyle{empty}
@@ -171,7 +171,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\LARGE\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(0.8, 4.33)
+  \begin{textblock}{4.2}(0.8, 4.33)
   \begin{flushright}
   \obeycr
 }{%
